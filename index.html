@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>LuxuryMotors</title>
+<meta charset="UTF-8">
+<link rel="shortcut icon" href="img/logo.png" type="image/vnd.microsoft.icon">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+<style>
+body,h1 {font-family: "Raleway", sans-serif;
+}
+body, html {height: 100%}
+.bgimg {
+  background-image: url('img/fond.webp');
+  min-height: 70%;
+  background-position: center;
+  background-size: cover;
+}
+
+.bgimg2 {
+  background-image: url('img/alpine.jpg');
+  min-height: 70%;
+  background-position: center;
+  background-size: cover;
+  }
+.luxurylogo {
+width: 200px;
+}
+
+.luxurytext {
+    font-family: fangsong;
+    font-size: 50px;
+}
+
+.luxurytext2 {
+    font-family: fangsong;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    padding-top: 25px;
+
+}
+.luxurytext3 {
+    font-family: fangsong;
+    font-size: 70px;
+    color: white;
+    text-align: center;
+    padding-top: 25px;
+
+}
+
+.information { 
+
+  background-color: #000000;
+}
+
+.footer-dark {
+  padding:50px 0;
+  color:#f0f9ff;
+  background-color:rgba(216, 0, 0, 0.226);
+}
+
+.footer-dark h3 {
+  margin-top:0;
+  margin-bottom:12px;
+  font-weight:bold;
+  font-size:16px;
+}
+
+.footer-dark ul {
+  padding:0;
+  list-style:none;
+  line-height:1.6;
+  font-size:14px;
+  margin-bottom:0;
+}
+
+.footer-dark ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.6;
+}
+
+.footer-dark ul a:hover {
+  opacity:0.8;
+}
+
+@media (max-width:767px) {
+  .footer-dark .item:not(.social) {
+    text-align:center;
+    padding-bottom:20px;
+  }
+}
+
+.footer-dark .item.text {
+  margin-bottom:36px;
+}
+
+@media (max-width:767px) {
+  .footer-dark .item.text {
+    margin-bottom:0;
+  }
+}
+
+.footer-dark .item.text p {
+  opacity:0.6;
+  margin-bottom:0;
+}
+
+.footer-dark .item.social {
+  padding-left: 20px;
+  padding-bottom: 8px;
+}
+
+@media (max-width:991px) {
+  .footer-dark .item.social {
+    text-align:center;
+    margin-top:20px;
+  }
+}
+
+.footer-dark .item.social > a {
+  font-size:20px;
+  width:36px;
+  height:36px;
+  line-height:36px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  box-shadow:0 0 0 1px rgba(255,255,255,0.4);
+  margin:0 8px;
+  color:#fff;
+  opacity:0.75;
+}
+
+.footer-dark .item.social > a:hover {
+  opacity:0.9;
+}
+
+.footer-dark .copyright {
+  text-align:center;
+  padding-top:24px;
+  opacity:0.3;
+  font-size:13px;
+  margin-bottom:0;
+}
+
+/* Intro */
+
+#intro {
+	text-align: center;
+	overflow: hidden;
+    
+}
+
+
+
+	#intro section {
+		margin: 3em 0;
+		padding: 2.5em 0;
+	}
+
+	#intro h2 {
+		font-size: 1.75em;
+	}
+
+	#intro p {
+		margin: 0;
+	}
+
+	#intro .middle {
+		position: relative;
+		z-index: 0;
+	}
+
+  #intro .two {
+    margin-right: 60px;
+  }
+
+  #intro .last {
+    padding-left: 55px;
+  }
+		#intro .middle:before {
+			content: '';
+			width: 35px;
+			height: 100%;
+			position: absolute;
+			left: -22px;
+			top: 0;
+			display: block;
+			z-index: -1;
+			box-shadow: 32px 0 0 0 #000000, 0 -32px 0 0 #000000, 0 32px 0 0 #000000, 32px 32px 0 0 #000000 , 32px -32px 0 0 #000000, 0 0 32px 0 rgba(216, 0, 0, 0.226);
+		}
+
+		#intro .middle:after {
+			content: '';
+			width: 32px;
+			height: 100%;
+			position: absolute;
+			right: -24px;
+			top: 0;
+			z-index: -1;
+			box-shadow: -32px 0 0 0 rgba(0, 0, 0, 0.993), 0 -32px 0 0 rgba(0, 0, 0, 0.993), 0 32px 0 0 rgba(0, 0, 0, 0.993), -32px 32px 0 0 rgba(0, 0, 0, 0.993), -32px -32px 0 0 rgba(0, 0, 0, 0.993), 0 0 32px 0 rgba(216, 0, 0, 0.226);
+		}
+
+    .presen {
+	max-width: 300px;
+}
+	#intro .button {
+		min-width: 12em;
+	}
+
+  #intro h2 {
+    color: white;
+		font-size: 1.75em;
+	}
+
+	#intro p {
+    color: white;
+
+		margin: 0;
+	}
+
+  .container-login100-form-btn {
+	width: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+  padding-top: 10px;
+  }
+  
+  .login100-form-btn {
+
+  
+	align-items: center;
+	padding: 0 20px;
+	width: 100%;
+	height: 50px;
+	background-color: rgba(216, 0, 0, 0.226);
+	border-radius: 25px;
+  
+	font-family: Ubuntu-Bold;
+	font-size: 15px;
+	color: #fff;
+	text-transform: uppercase;
+  
+	-webkit-transition: all 0.4s;
+	-o-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	transition: all 0.4s;
+  }
+  
+  .login100-form-btn:hover {
+	background-color: rgba(216, 0, 0, 0.425);
+  }
+.test { 
+
+  padding-top: 10px;
+
+}
+
+
+
+
+
+
+
+.tm-slideshow-section {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.tm-slideshow-section-reverse {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+    -webkit-flex-direction: row-reverse;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+}
+
+.tm-slideshow { width: 50%; }
+
+.tm-slideshow-description {
+    padding: 50px;
+    color: white;
+    width: 48%;
+    z-index: 100;
+    margin-left: -42px;
+}
+
+.tm-slideshow-description-left {
+    margin-left: auto;
+    margin-right: -42px;    
+}
+ 
+.photobmw {
+
+  width: 600px;
+
+}
+
+.photor8 {
+
+width: 600px;
+margin-left: 320px;
+}
+
+.tm-bg-primary { background: rgba(216, 0, 0, 0.226); }
+.tm-bg-highlight { background: rgba(216, 0, 0, 0.226); }
+
+</style>
+</head>
+<body class="information">
+
+<!--accueil-->
+
+<div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
+  <div ><img  class="luxurylogo" src="img/luxurylogo.png"></img>
+    
+  </div>
+  <div class="w3-display-middle">
+    <h1 class="luxurytext">BIENVENUE CHEZ LUXURY MOTORS</h1>
+    <hr class="w3-border-grey" style="margin:auto;width:40%" >
+  </div>
+  
+</div>
+
+<div >
+ 
+  <div style="padding-bottom:70px">
+    <h1 class="luxurytext2">LUXURY MOTORS SPECIALISTE DE LA VENTE DE VEHICULES D'OCCASION TOUTES MARQUES</h1>
+    <hr class="w3-border-grey" style="margin:auto;width:40%" >
+  </div>
+
+</div>
+
+<section id="intro" class="container" >
+  <div class="row">
+    
+      <div class="col-4 col-12-medium" id="competence">
+          <section class="two">
+              <img class="presen" src="img/bluecar.jpg" alt="Site logo">
+              <header>
+              </header>
+
+              <h1 class="test"></h1>
+              <a class="test" href="nouveaustock.php"> <button class="login100-form-btn">Nouveaux Arrivage</button><span class="sr-only">(current)</span></a>
+
+            </section>
+          
+      </div>
+      <div class="col-4 col-12-medium" id="competence">
+          <section class="middle">
+            <img class="presen" src="img/bmw2.jpg" alt="Site logo">
+            <header>
+              </header>
+              <h1 class="test"></h1>
+              <a class="test" href="stock.php"> <button href="https://www.google.com/search?client=opera-gx&q=bouton+html&sourceid=opera&ie=UTF-8&oe=UTF-8" class="login100-form-btn">Nos Stock</button><span class="sr-only">(current)</span></a>
+          </section>
+      </div>
+      <div class="col-4 col-12-medium" id="competence">
+          <section class="last">
+            <img class="presen" src="img/nissan.jpg" alt="Site logo">
+            <header>
+              </header>
+              <h1 class="test"></h1>
+              <a class="test" href="ventevehicules.php"> <button href="https://www.google.com/search?client=opera-gx&q=bouton+html&sourceid=opera&ie=UTF-8&oe=UTF-8" class="login100-form-btn">Vendre son véhicule</button><span class="sr-only">(current)</span></a>
+            </section>
+      </div>
+  </div>
+
+</section>
+
+</section>
+
+
+
+
+<div>
+ 
+  <div style="padding-bottom:70px">
+    <h1 class="luxurytext3">Notre Histoire</h1>
+    <hr class="w3-border-grey" style="margin:auto;width:40%" >
+  </div>
+
+</div>
+
+<section class="clearfix tm-slideshow-section tm-slideshow-section-reverse">
+
+  <div class="tm-right tm-slideshow tm-slideshow-highlight">
+      <img class="photobmw" src="img/bmw.jpg" alt="Image">
+      
+  </div> 
+
+  <div class="tm-slideshow-description tm-slideshow-description-left tm-bg-highlight">
+      <p>Notre entreprise Luxury Motors a été créée à Lyon en 1980. Elle compte 10 showroom dans la France entière.</p>
+
+  </div>                        
+
+</section>
+
+<div class="tm-container-outer" id="tm-section-2">
+  <section class=" clearfix tm-slideshow-section">
+      <div class="tm-slideshow">
+          <img class="photor8" src="img/r8.jpg" alt="Image">
+      </div>
+      <div class="tm-slideshow-description tm-bg-primary">
+          <p>Forts de plus de trente années d’expériences, la vente automobile est avant tout, pour nous, une passion familiale, transmise de père en fils depuis plusieurs générations.
+              Aujourd’hui, nous proposons de mettre à profit notre savoir-faire tant dans le conseil que dans la mise en œuvre et la réalisation de vos projets.
+          </p>
+      </div>
+  </section>
+  <section class="clearfix tm-slideshow-section tm-slideshow-section-reverse">
+
+      <div class="tm-right tm-slideshow tm-slideshow-highlight">
+          <img class="photobmw" src="img/f40.jpg" alt="Image">
+          
+      </div> 
+
+      <div class="tm-slideshow-description tm-slideshow-description-left tm-bg-highlight">
+          <p>Nous accordons beaucoup d’importance à la durabilité de nos interventions, c’est pourquoi chacun de nos travaux bénéficie de toute notre application.
+
+              Conscient des enjeux économiques, environnementaux qui pèsent sur les professionnels, nous vous offrons la plus riche de toutes les compétences : l'expérience.
+          </p>
+      </div>                        
+    
+  </section>
+
+
+
+  <div style="padding-bottom:90px">
+  </div>
+
+
+
+<div><!--Footer-->
+<div class="footer-dark">
+  <footer>
+      <div class="container">
+          <div class="row">
+              <div class="col-sm-6 col-md-3 item">
+                  <h3>Nos Services</h3>
+                  <ul>
+                      <li><a href="#">Achats Véhicules occasions</a></li>
+                      <li><a href="#">Ventes Vehicules occasions</a></li>
+                  </ul>
+              </div>
+              <div class="col-sm-6 col-md-3 item">
+                  <h3>Nos Réseaux</h3>
+                  <ul>
+                      <li class="col item social"><a href="https://www.facebook.com/maxence.philippon.5/"><i class="icon ion-social-facebook"></i></a></li>
+                      <li class="col item social"><a href="https://twitter.com/Meweey"><i class="icon ion-social-twitter"></i></a></li>
+                      <li class="col item social"><a href="https://www.instagram.com/maxence_philippon/"><i class="icon ion-social-instagram"></i></a></li>
+                  </ul>
+              </div>
+              <div class="col-md-6 item text">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2761.0138752268313!2d4.754864851460524!3d46.21017897901429!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f37b3e96dd9bcf%3A0xcace642271355016!2s55%20Rte%20du%20Vieux%20Moulin%2C%2071570%20La%20Chapelle-de-Guinchay!5e0!3m2!1sfr!2sfr!4v1676281669841!5m2!1sfr!2sfr" width="600" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+          </div>
+          <div class="col-sm-6 col-md-3 item">
+            <h3>Nous contacter</h3>
+            <ul>
+                <li><a href="#">maxence.philippon@outlook.com</a></li>
+            </ul>
+        </div>
+
+
+  </footer>
+</div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
